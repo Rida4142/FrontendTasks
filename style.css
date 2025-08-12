@@ -10,6 +10,7 @@
     height: 100vh;
     background: linear-gradient(to right, #fbc2eb, #a6c1ee);
     display: flex; 
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
@@ -119,6 +120,8 @@ form input.equal {
 .clear {
     background: #e63946 !important; /* Soft Red */
 }
+
+
 
 .delete {
     background: #f4a261 !important; /* Warm Pastel Orange */
